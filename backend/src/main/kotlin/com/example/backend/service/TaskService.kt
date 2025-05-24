@@ -1,7 +1,7 @@
 package com.example.backend.service
 
 import com.example.backend.domain.Task
-import com.example.backend.infrastracture.TaskRepository
+import com.example.backend.domain.TaskRepository
 import org.springframework.stereotype.Service
 
 @Service
@@ -10,15 +10,11 @@ class TaskService(
 ) {
     fun registerTask(taskName: String, taskDescription: String): Task {
         val task = Task.createTask(taskName, taskDescription)
+        taskRepository.registerTask(task)
         return task
     }
 
     fun getTasks(): List<Task> {
-        // TODO
-        return listOf(
-            Task.createTask("task1", "description1"),
-            Task.createTask("task2", "description2"),
-            Task.createTask("task3", "description3"),
-        )
+        return taskRepository.getTasks()
     }
 }
