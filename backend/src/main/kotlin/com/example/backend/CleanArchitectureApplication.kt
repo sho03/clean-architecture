@@ -1,4 +1,4 @@
-package com.example.clean_architecture
+package com.example.backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
