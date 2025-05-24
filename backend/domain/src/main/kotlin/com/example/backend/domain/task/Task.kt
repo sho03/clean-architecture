@@ -1,4 +1,4 @@
-package com.example.backend.domain
+package com.example.backend.domain.task
 
 import java.util.UUID
 
