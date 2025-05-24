@@ -1,4 +1,4 @@
-package com.example.backend.domain
+package com.example.backend.domain.task
 
 interface TaskRepository {
     fun registerTask(task: Task)

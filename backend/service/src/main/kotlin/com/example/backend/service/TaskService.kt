@@ -1,7 +1,7 @@
-package com.example.backend.service
+package com.example.backend.service.com.example.backend.service
 
-import com.example.backend.domain.Task
-import com.example.backend.domain.TaskRepository
+import com.example.backend.domain.task.Task
+import com.example.backend.domain.task.TaskRepository
 import org.springframework.stereotype.Service
 
 @Service

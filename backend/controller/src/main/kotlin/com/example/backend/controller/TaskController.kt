@@ -1,7 +1,7 @@
-package com.example.backend.controller
+package com.example.backend.controller.com.example.backend.controller
 
-import com.example.backend.domain.Task
-import com.example.backend.service.TaskService
+import com.example.backend.domain.task.Task
+import com.example.backend.service.com.example.backend.service.TaskService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping
